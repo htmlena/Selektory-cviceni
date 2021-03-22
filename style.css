@@ -49,3 +49,17 @@ body {
 }
 
 /*----- Tvoje styly ------*/
+
+section:nth-of-type(2n) {
+  background-color: white;
+}
+
+section > img {
+  border: 3px solid lightblue;
+}
+
+div > img:hover {
+  transform: scale(1.3);
+  transition: 1s;
+  cursor: pointer;
+}
